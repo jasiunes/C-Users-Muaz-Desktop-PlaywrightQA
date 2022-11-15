@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest":{
+    "testPathIgnorePatterns":[
+      "/tests/"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.26.1",
+    "@types/jest": "^29.1.2",
     "playwright": "^1.26.1"
   }
 }
