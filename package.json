@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest"
   },
-  "jest":{
-    "testPathIgnorePatterns":[
+  "jest": {
+    "testPathIgnorePatterns": [
       "/tests/"
     ]
   },
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.26.1",
+    "@playwright/test": "^1.28.0",
     "@types/jest": "^29.1.2",
     "playwright": "^1.26.1"
   }

@@ -46,5 +46,6 @@ test ('Client App Login' , async({page}) => {
    await expect(page.locator(".hero-primary")).toHaveText(email);
    const orderId = await page.locator(".em-spacer-1 .").textContent();
    console.log(orderId);
+   await page.locator
     await page.pause();
 })
