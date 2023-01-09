@@ -4,7 +4,7 @@ test(' DropDown Test', async ({page})=>{
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     const userName =page.locator('input[name="username"]');
     const signIn =page.locator('text=SignIn');
-    const documentLink = page.locator("href*='documents-request]'")
+    const documentLink = page.locator("href*='[documents-request]'")
     const dropdown = page.locator("select.form-control");
     await dropdown.selectOption("consult");
     await page.locator(".radiotextsty").last().click(); //first();
