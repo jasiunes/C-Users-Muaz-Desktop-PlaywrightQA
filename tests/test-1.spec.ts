@@ -30,5 +30,4 @@ test('test', async ({ page }) => {
 
   // Go to https://www.google.com/maps/place/Sunnyvale,+CA/@37.3888282,-122.0266748,13.96z/data=!4m5!3m4!1s0x808fb645a9d05d3b:0x768dfb26dd7cc3a2!8m2!3d37.36883!4d-122.0363496?hl=en
   await page1.goto('https://www.google.com/maps/place/Sunnyvale,+CA/@37.3888282,-122.0266748,13.96z/data=!4m5!3m4!1s0x808fb645a9d05d3b:0x768dfb26dd7cc3a2!8m2!3d37.36883!4d-122.0363496?hl=en');
-
 });
